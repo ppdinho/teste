@@ -1,7 +1,193 @@
 .sidebar {
+  display: flex;
+  background-color: red;
+  width: 1871px;
+  height: 55px;
+  margin-top: -10px;
+  margin-left: -15px;
+  position: relative; /* Alterado para relative */
+}
+
+/* Logo */
+.logo {
+ 
+  position: relative; /* Alterado para relative */
+  width: 50px;
+  left: 550px;
+}
+
+.logo2{
+  position: relative;
+
+  left: 200px;
+  top: 80px;
+}
+
+/* Estado */
+.estado {
+  margin-top: -180px;
+  margin-left: 520px;
+  color: white;
+  font-size: 10px;
+  position: relative; 
+}
+
+/* Traco1 */
+.traco1{
+  position: relative;
+  top: -35px;
+  transform: rotate(180deg);
+  left: 625px;
+  width: 1px;
+  background-color: white;
+  height: 40px;
+}
+
+
+.traco2{
+  position: relative;
+  top: 150px;
+  transform: rotate(180deg);
+  left: 115px;
+  width: 1px;
+  background-color: rgba(182, 173, 173, 1);
+  height: 940px;
+}
+.traco3{
+  position: relative;
+  top: -780px;
+  transform: rotate(180deg);
+  left: 1365px;
+  width: 1px;
+  background-color: rgba(182, 173, 173, 1);
+  height: 940px;
+}
+.imagem{
+  position: relative;
+  top: -1780px;
+  left: 120px;
+  width: 30px;
+}
+.Produto1{
+  width: 517px;
+  height: 538px;
+}
+.P1{
+  position: relative;
+  top: -2180px;
+  left: 790px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 60px;
+font-style: normal;
+}
+.preco{
+  position: relative;
+  top: -2200px;
+  left: 920px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 100px;
+font-style: normal;
+color: rgba(255, 0, 0, 1);
+}
+.caminhao{
+  position: relative;
+  width: 30px;
+  left: 800px;
+  top: -2150px;
+}
+.entrega{
+  position: relative;
+  top: -2170px;
+  left: 840px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 10px;
+font-style: normal;
+color: rgba(255, 0, 0, 1);
+}
+.verifica{
+  position: relative;
+  width: 30px;
+  left: 1030px;
+  top: -2190px;
+}
+.frase{
+  position: relative;
+  top: -2210px;
+  left: 1080px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 10px;
+font-style: normal;
+color: rgba(255, 0, 0, 1);
+}
+.cartao{
+  position: relative;
+  width: 30px;
+  left: 910px;
+  top: -2170px;
+}
+.frase2{
+  position: relative;
+  top: -2190px;
+  left: 960px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 10px;
+font-style: normal;
+color: rgba(255, 0, 0, 1);
+}
+
+.botao{
+  position: relative;
+  background-color: #ff4b4b; /* Cor de fundo */
+color: #ffffff; /* Cor do texto */
+border: none; /* Sem borda */
+border-radius: 30px; /* Bordas arredondadas */
+padding: 10px 20px; /* Espaçamento interno */
+font-size: 16px; /* Tamanho do texto */
+font-weight: bold; /* Texto em negrito */
+text-transform: uppercase; /* Texto em maiúsculas */
+cursor: pointer; /* Cursor de mão ao passar */
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+transition: all 0.3s ease; /* Suavidade ao passar o mouse */
+width: 80px;
+height: 40px;
+top: -2150px;
+left: 930px;
+}
+.botao:hover:hover {
+  background-color: #d43c3c; /* Cor ao passar o mouse */
+  transform: scale(1.05); /* Leve aumento ao passar o mouse */
+}
+.comprar{
+  position: relative;
+  top: -2190px;
+  left: 955px;
+width: 740px;
+font-family: "Jomhuria", serif;
+font-size: 30px;
+font-style: normal;
+color: white;
+
+}
+
+.descricao{
+position: relative;
+  left: 250px;
+  top: -2100px;
+  font-size: 13px;
+width: 850px;
+}
+
+
+@media (max-width: 760px) {
+  .sidebar {
     display: flex;
     background-color: red;
-    width: 1871px;
+    width: 367px;
     height: 55px;
     margin-top: -10px;
     margin-left: -15px;
@@ -10,21 +196,22 @@
   
   /* Logo */
   .logo {
-   
+
     position: relative; /* Alterado para relative */
     width: 50px;
-    left: 550px;
+    left: -100px;
   }
   
   .logo2{
     position: relative;
-
-    left: 200px;
-    top: 80px;
+   
+    width: 150px;
+    top: 20px;
   }
   
   /* Estado */
   .estado {
+    display: none;
     margin-top: -180px;
     margin-left: 520px;
     color: white;
@@ -34,6 +221,7 @@
   
   /* Traco1 */
   .traco1{
+    display: none;
     position: relative;
     top: -35px;
     transform: rotate(180deg);
@@ -45,6 +233,7 @@
 
 
   .traco2{
+    display: none;
     position: relative;
     top: 150px;
     transform: rotate(180deg);
@@ -54,6 +243,7 @@
     height: 940px;
   }
   .traco3{
+    display: none;
     position: relative;
     top: -780px;
     transform: rotate(180deg);
@@ -63,41 +253,52 @@
     height: 940px;
   }
   .imagem{
+
     position: relative;
-    top: -1780px;
-    left: 120px;
-    width: 30px;
+    top: 50px;
+    left: 90px;
+    width: 10px;
   }
   .Produto1{
-    width: 517px;
-    height: 538px;
+
+    width: 157px;
+    height: 158px;
   }
   .P1{
+
     position: relative;
-    top: -2180px;
-    left: 790px;
- width: 740px;
+  
+    top: -150px;
+    left: 70px;
+ width: 240px;
  font-family: "Jomhuria", serif;
-font-size: 60px;
+font-size: 30px;
  font-style: normal;
+ 
   }
   .preco{
+
+
     position: relative;
-    top: -2200px;
-    left: 920px;
- width: 740px;
+    top: 30px;
+    left: 130px;
+ width: 140px;
  font-family: "Jomhuria", serif;
-font-size: 100px;
+font-size: 50px;
  font-style: normal;
  color: rgba(255, 0, 0, 1);
   }
   .caminhao{
+  display: none;
+
     position: relative;
     width: 30px;
     left: 800px;
     top: -2150px;
   }
   .entrega{
+  display: none;
+
     position: relative;
     top: -2170px;
     left: 840px;
@@ -108,28 +309,36 @@ font-size: 10px;
  color: rgba(255, 0, 0, 1);
   }
   .verifica{
+
+
     position: relative;
     width: 30px;
-    left: 1030px;
-    top: -2190px;
+    top: 120px;
+    left: 100px;
   }
   .frase{
+
+
     position: relative;
-    top: -2210px;
-    left: 1080px;
- width: 740px;
+    top: 100px;
+    left: 130px;
+ width: 140px;
  font-family: "Jomhuria", serif;
-font-size: 10px;
+font-size: 15px;
  font-style: normal;
  color: rgba(255, 0, 0, 1);
   }
   .cartao{
+  display: none;
+
     position: relative;
     width: 30px;
     left: 910px;
     top: -2170px;
   }
   .frase2{
+  display: none;
+
     position: relative;
     top: -2190px;
     left: 960px;
@@ -141,6 +350,8 @@ font-size: 10px;
   }
 
   .botao{
+
+
     position: relative;
     background-color: #ff4b4b; /* Cor de fundo */
   color: #ffffff; /* Cor do texto */
@@ -155,247 +366,36 @@ font-size: 10px;
   transition: all 0.3s ease; /* Suavidade ao passar o mouse */
   width: 80px;
   height: 40px;
-  top: -2150px;
-  left: 930px;
+      
+  top: -10px;
+  left: 105px;
+ 
   }
   .botao:hover:hover {
     background-color: #d43c3c; /* Cor ao passar o mouse */
     transform: scale(1.05); /* Leve aumento ao passar o mouse */
   }
   .comprar{
-    position: relative;
-    top: -2190px;
-    left: 955px;
- width: 740px;
+
+
+
+
+ width: 140px;
  font-family: "Jomhuria", serif;
 font-size: 30px;
  font-style: normal;
 color: white;
-
+top: -50px;
+  left: 130px;
   }
 
   .descricao{
+  display: none;
+
  position: relative;
     left: 250px;
     top: -2100px;
     font-size: 13px;
 width: 850px;
   }
-
-
-  @media (max-width: 760px) {
-    .sidebar {
-      display: flex;
-      background-color: red;
-      width: 367px;
-      height: 55px;
-      margin-top: -10px;
-      margin-left: -15px;
-      position: relative; /* Alterado para relative */
-    }
-    
-    /* Logo */
-    .logo {
-
-      position: relative; /* Alterado para relative */
-      width: 50px;
-      left: -100px;
-    }
-    
-    .logo2{
-      position: relative;
-     
-      width: 150px;
-      top: 20px;
-    }
-    
-    /* Estado */
-    .estado {
-      display: none;
-      margin-top: -180px;
-      margin-left: 520px;
-      color: white;
-      font-size: 10px;
-      position: relative; 
-    }
-    
-    /* Traco1 */
-    .traco1{
-      display: none;
-      position: relative;
-      top: -35px;
-      transform: rotate(180deg);
-      left: 625px;
-      width: 1px;
-      background-color: white;
-      height: 40px;
-    }
-  
-  
-    .traco2{
-      display: none;
-      position: relative;
-      top: 150px;
-      transform: rotate(180deg);
-      left: 115px;
-      width: 1px;
-      background-color: rgba(182, 173, 173, 1);
-      height: 940px;
-    }
-    .traco3{
-      display: none;
-      position: relative;
-      top: -780px;
-      transform: rotate(180deg);
-      left: 1365px;
-      width: 1px;
-      background-color: rgba(182, 173, 173, 1);
-      height: 940px;
-    }
-    .imagem{
-
-      position: relative;
-      top: 50px;
-      left: 90px;
-      width: 10px;
-    }
-    .Produto1{
-
-      width: 157px;
-      height: 158px;
-    }
-    .P1{
-
-      position: relative;
-    
-      top: -150px;
-      left: 70px;
-   width: 240px;
-   font-family: "Jomhuria", serif;
-  font-size: 30px;
-   font-style: normal;
-   
-    }
-    .preco{
-
-
-      position: relative;
-      top: 30px;
-      left: 130px;
-   width: 140px;
-   font-family: "Jomhuria", serif;
-  font-size: 50px;
-   font-style: normal;
-   color: rgba(255, 0, 0, 1);
-    }
-    .caminhao{
-    display: none;
-
-      position: relative;
-      width: 30px;
-      left: 800px;
-      top: -2150px;
-    }
-    .entrega{
-    display: none;
-
-      position: relative;
-      top: -2170px;
-      left: 840px;
-   width: 740px;
-   font-family: "Jomhuria", serif;
-  font-size: 10px;
-   font-style: normal;
-   color: rgba(255, 0, 0, 1);
-    }
-    .verifica{
-
-
-      position: relative;
-      width: 30px;
-      top: 120px;
-      left: 100px;
-    }
-    .frase{
-
-
-      position: relative;
-      top: 100px;
-      left: 130px;
-   width: 740px;
-   font-family: "Jomhuria", serif;
-  font-size: 15px;
-   font-style: normal;
-   color: rgba(255, 0, 0, 1);
-    }
-    .cartao{
-    display: none;
-
-      position: relative;
-      width: 30px;
-      left: 910px;
-      top: -2170px;
-    }
-    .frase2{
-    display: none;
-
-      position: relative;
-      top: -2190px;
-      left: 960px;
-   width: 740px;
-   font-family: "Jomhuria", serif;
-  font-size: 10px;
-   font-style: normal;
-   color: rgba(255, 0, 0, 1);
-    }
-  
-    .botao{
-
-
-      position: relative;
-      background-color: #ff4b4b; /* Cor de fundo */
-    color: #ffffff; /* Cor do texto */
-    border: none; /* Sem borda */
-    border-radius: 30px; /* Bordas arredondadas */
-    padding: 10px 20px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho do texto */
-    font-weight: bold; /* Texto em negrito */
-    text-transform: uppercase; /* Texto em maiúsculas */
-    cursor: pointer; /* Cursor de mão ao passar */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
-    transition: all 0.3s ease; /* Suavidade ao passar o mouse */
-    width: 80px;
-    height: 40px;
-        
-    top: -10px;
-    left: 105px;
-   
-    }
-    .botao:hover:hover {
-      background-color: #d43c3c; /* Cor ao passar o mouse */
-      transform: scale(1.05); /* Leve aumento ao passar o mouse */
-    }
-    .comprar{
-
-
-
- 
-   width: 140px;
-   font-family: "Jomhuria", serif;
-  font-size: 30px;
-   font-style: normal;
-  color: white;
-  top: -50px;
-    left: 130px;
-    }
-  
-    .descricao{
-    display: none;
-
-   position: relative;
-      left: 250px;
-      top: -2100px;
-      font-size: 13px;
-  width: 850px;
-    }
-  }
+}
