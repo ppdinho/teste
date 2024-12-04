@@ -1,0 +1,429 @@
+/* Sidebar */
+.sidebar {
+  display: flex;
+  background-color: red;
+  width: 1871px;
+  height: 55px;
+  margin-top: -10px;
+  margin-left: -15px;
+  position: relative; /* Alterado para relative */
+}
+
+/* Logo */
+.logo {
+ 
+  position: relative; /* Alterado para relative */
+  width: 5px;
+  left: 300px;
+}
+
+.logo2{
+  position: relative;
+  left: 200px;
+  top: 80px;
+}
+
+/* Estado */
+.estado {
+  margin-top: -185px;
+  margin-left: 520px;
+  color: white;
+  font-size: 10px;
+  position: relative; 
+}
+
+/* Traco1 */
+.traco1{
+  position: relative;
+  top: -35px;
+  transform: rotate(180deg);
+  left: 625px;
+  width: 1px;
+  background-color: white;
+  height: 40px;
+}
+
+/* Telefone */
+.telefone {
+  position: relative; 
+  top: 685px;
+left: 720px;
+  color: white;
+  font-size: 10px;
+  
+}
+
+/* Search Container */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Já estava relative */
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 700px;
+}
+
+/* Input de Pesquisa */
+#search {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  margin-bottom: 8px;
+  position: relative; /* Alterado para relative */
+}
+
+/* Caixa de Sugestões */
+.suggestions-box {
+  display: none; /* Inicialmente oculta */
+  position: relative; /* Alterado para relative */
+  top: 40px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-top: none;
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 1;
+  flex-direction: column;
+}
+
+/* Item de Sugestão */
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative; /* Alterado para relative */
+}
+.logo{
+  width: 30px;
+}
+.estado{
+  width: 100px;
+}
+.telefone{
+  width: 250px;
+  top: -9px;
+}
+.loc{
+  width: 10%;
+
+}
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Loc */
+.loc {
+  display: flex;
+  margin-left: 1030px;
+  margin-top: -40px;
+  position: relative; /* Alterado para relative */
+}
+
+/* Ajuda */
+.ajuda {
+  display: flex;
+  margin-left: 1740px;
+  margin-top: -100px;
+  color: white;
+  font-size: 12px;
+  position: relative; /* Alterado para relative */
+}
+.traco2{
+  position: relative;
+  top: -150px;
+  transform: rotate(90deg);
+  left: 800px;
+  width: 1px;
+  background-color: black;
+  height: 700px;
+}
+.demasiados{
+position: relative;
+top: -460px;
+left:550px;
+width: 50px;
+}
+.demasiadosbutton{
+color: red;
+}
+.Ferrmantas{
+position: relative;
+top: -477px;
+left:700px;
+width: 50px;
+}
+.Ferrmantasbtn{
+color: red;
+}
+.Elétrica{
+position: relative;
+top: -495px;
+left:850px;
+width: 50px;
+}
+.Elétricabtn{
+color: red;
+}
+.Hidraulica{
+position: relative;
+top: -512px;
+left:970px;
+width: 50px;
+}
+.Hidraulicabtn{
+color: red;
+}
+.ForroPVC{
+position: relative;
+top: -430px;
+left:550px;
+width: 100px;
+}
+.ForroPVCbtn{
+color: red;
+}
+.Pintura{
+position: relative;
+top: -450px;
+left:715px;
+width: 100px;
+}
+.Pinturabtn{
+color: red;
+}
+.Ipermeabilizantes{
+position: relative;
+top: -465px;
+left:820px;
+width: 100px;
+}
+.Ipermeabilizantesbtn{
+color: red;
+}
+.MaisVendidos{
+position: relative;
+top: -480px;
+left:970px;
+width: 150px;
+}
+.MaisVendidosbtn{
+color: red;
+}
+.traco3{
+  position: relative;
+  top: -890px;
+  transform: rotate(90deg);
+  left: 800px;
+  width: 1px;
+  background-color: black;
+  height: 700px;
+}
+
+.imagemGrande{
+  position: relative;
+  top: -1100px;
+right: 5px;
+width: 30px;
+}
+.ajuda{
+  width: 150px;
+}
+.ferramentas{
+  width: 1850px;
+}
+.caminhao{
+  position: relative;
+  top: -1000px;
+  left: 500px;
+right: 5px;
+width: 10px;
+}
+.caminhaoT{
+  width: 50px;
+  height: 50px;
+}
+
+.letra1{
+  position: relative;
+  top: -1050px;
+  left: 560px;
+  font-family: Jomhuria;
+  width: 30%;
+  color: red;
+}
+.precos{
+  position: relative;
+  top: -1045px;
+  left: 560px;
+  font-family: Jomhuria;
+  width: 30%;
+  font-size: 13px;
+}
+.verificaimg{
+  position: relative;
+  top: -1075px;
+  left: 800px;
+right: 5px;
+width: 10px;
+}
+.verificado{
+  width: 36px;
+  height: 36px;
+}
+.compra{
+  position: relative;
+  top: -1105px;
+  left: 845px;
+  font-family: Jomhuria;
+  width: 30%;
+  font-size: 13px;
+  color: red;
+}
+.cartaoimg{
+  position: relative;
+  top: -1130px;
+  left: 1000px;
+right: 5px;
+width: 10px;
+}
+.cartaoimagem{
+  width: 36px;
+  height: 36px;
+}
+.Parcela{
+  position: relative;
+  top: -1165px;
+  left: 1040px;
+right: 5px;
+width: 170px;
+font-size: 10px;
+color: red;
+}
+.minima{
+  position: relative;
+  top: -1160px;
+  left: 1040px;
+right: 5px;
+width: 170px;
+font-size: 10px;
+}
+
+
+
+.destaques{
+  position: relative;
+  top: -980px;
+  left: 350px;
+  width: 50%;
+}
+.linha{
+  position: relative;
+  top: -1490px;
+  transform: rotate(90deg);
+  left: 980px;
+  width: 1px;
+  background-color: black;
+  height: 1000px;
+}
+
+
+.produtocard1{
+  position: relative;
+  top: -1850px;
+  left: 335px;
+  width: 30px;
+}
+.card{
+  width: 250px;
+  height: 250px;
+}
+.produto1_1{
+  position: relative;
+  top: -2070px;
+  left: 380px;
+  width: 30px;
+}
+.img1{
+  width: 150px;
+  height: 150px;
+}
+.title1{
+  position: relative;
+  top: -1990px;
+  left: 350px;
+  width: 250px;
+  }
+  .sub{
+    position: relative;
+  top: -1970px;
+  left: 430px;
+  width: 250px;
+  }
+  .Disponivel1{
+    position: relative;
+  top: -1950px;
+  left: 410px;
+  width: 250px;
+  color: rgba(182, 173, 173, 1);
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .ferramentas{
+      width: 1400px;
+      left: 150px;
+    }
+    .imagemGrande{
+      position: relative;
+      left: 200px;
+    }
+    .sidebar{
+      width: 1420px;
+      left: 200px;
+    }
+    .telefone{
+      position: relative;
+      top: -10px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
